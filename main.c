@@ -4,7 +4,7 @@ int main() {
     int t;
     
     
-    printf("Nhap nhiet do t: ");
+    
     scanf("%d", &t);
 
     
