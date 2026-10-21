@@ -3,10 +3,10 @@
 int main() {
     int t;
     
-    // Đọc giá trị t (nếu hệ thống không yêu cầu printf hướng dẫn thì chỉ cần scanf)
-    scanf("%d", &t);
+    // Chỉ đọc giá trị t, tuyệt đối không in câu thông báo rườm rà
+    if (scanf("%d", &t) != 1) return 0;
 
-    // Phân loại chuẩn xác theo biên độ
+    // Phân loại theo mốc chuẩn
     if (t < 15) {
         printf("LANH\n");
     } 
