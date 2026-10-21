@@ -3,10 +3,10 @@
 int main() {
     int t;
     
-    // Chỉ đọc giá trị t, tuyệt đối không in câu thông báo rườm rà
+    // Đọc nhiệt độ t
     if (scanf("%d", &t) != 1) return 0;
 
-    // Phân loại theo mốc chuẩn
+    // Phân loại với các mốc biên chuẩn
     if (t < 15) {
         printf("LANH\n");
     } 
@@ -17,7 +17,7 @@ int main() {
         printf("NONG\n");
     } 
     else {
-        // Tương ứng với t >= 35
+        // Các trường hợp từ 35 trở lên (t >= 35)
         printf("RAT_NONG\n");
     }
 
