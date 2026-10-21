@@ -5,11 +5,11 @@
     int a,b,c,max; 
     
     // nhap so nguyen tu ban phim
-    printf("nhap so nguyen thu nhat:",a);
+    printf("nhap so thu nhat:");
     scanf("%d",&a);
-    printf("nhap so nguyen thu hai:",b);
+    printf("nhap so thu hai:");
     scanf("%d",&b);
-    printf("nhap so nguyen thu ba:",c);
+    printf("nhap so thu ba:");
     scanf("%d",&c);
     //gia su gia tri a la so lon nhat
     max=a;
