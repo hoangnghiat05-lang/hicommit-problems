@@ -1,21 +1,17 @@
 #include <stdio.h>
-#include <string.h>
 
-	int main ()
-{
-//khai bao bien
-	int a;
-	float f;
-	char ch;
-	char hoten[30];
-	
-	scanf("%d",&a);
-	scanf("%f",&f);
-	scanf("%c",&ch);
-	
-	strcpy(hoten,"Tran Huynh Hoang Nghia");
-//xuat bien
-	printf("\n%d,%f,%c,%s",a,f,ch,hoten);
+  int main();{
+    int n;
+    printf("nhap mot so nguyen:");
+    scanf("%d",&n);
+    if  (n%2==0){
+      printf("%d là số chẵn.\n",n);
+    }
+    else{
+      printf("là số lẻ.\n",n);
+    }
+  
+
 
   return 0;
 }
