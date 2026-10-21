@@ -22,7 +22,7 @@
     max=c;
     }
     //In ket qua lon nhat
-    printf("\n so lon nhat trong ba so la:%d\n",a,b,c,max);
+    printf("\n so lon nhat trong ba so la:%d\n",max);
   
    
       return 0;
