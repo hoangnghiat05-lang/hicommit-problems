@@ -3,13 +3,14 @@
   int main()
   {
     int n;
-    printf("nhap mot so nguyen n\n");
-    scanf("%d",&n);
+    // nhap so nguyen n
+   if (scanf("%d",&n)==1)
+    // kiem tra n chia het cho 2
     if  (n%2==0){
-      printf("%d CHAN\n",n);
+      printf("CHAN\n",n);
     }
     else{
-      printf("%d LE\n",n);
+      printf("LE\n",n);
     }
   
 
