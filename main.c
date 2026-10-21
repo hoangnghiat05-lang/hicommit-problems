@@ -5,7 +5,7 @@ int main() {
   
   printf("nhap so nguyen thu nhat:");
   scanf("%d",&a);
-  printf("nhap so nguyen thu hai: ");
+  printf("nhap so nguyen thu hai:");
   scanf("%d",&b);
   printf("nhap so nguyen thu ba:");
   scanf("%d",c);
