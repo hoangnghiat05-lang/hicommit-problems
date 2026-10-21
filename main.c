@@ -1,22 +1,24 @@
-#include <stdio.h>
+##include <stdio.h>
 
 int main() {
     int t;
     
-    
+   
     
     scanf("%d", &t);
 
-    
+   
     if (t < 15) {
         printf("LANH\n");
     } 
-   
+    else if (t >= 15 && t < 25) {
+        printf("LANH\n");
+    } 
     else if (t >= 25 && t < 35) {
         printf("NONG\n");
     } 
     else {
-        
+       
         printf("RAT_NONG\n");
     }
 
