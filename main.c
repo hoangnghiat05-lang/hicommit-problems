@@ -11,9 +11,7 @@ int main() {
     if (t < 15) {
         printf("LANH\n");
     } 
-    else if (t >= 15 && t < 25) {
-        printf("MAT\n");
-    } 
+   
     else if (t >= 25 && t < 35) {
         printf("NONG\n");
     } 
