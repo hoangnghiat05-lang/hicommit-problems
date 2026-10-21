@@ -1,7 +1,9 @@
 #include <stdio.h>
 
   int main() {
+    
     int a,b,c,max; 
+    
     // nhap so nguyen tu ban phim
     printf("nhap so nguyen thu nhat:");
     scanf("%d",&a);
@@ -12,15 +14,15 @@
     //gia su gia tri a la so lon nhat
     max=a;
     // so sanh max voi b
-      if (b>max){
+      if (b>max) {
     max=b;
     }
     // so sanh max voi c
-      if (c>max){
+      if (c>max) {
     max=c;
     }
     //In ket qua lon nhat
-    printf("\n so lon nhat trong ba so la:%d\n",max);
+    printf("\n so lon nhat trong ba so la:%d\n",a,b,c,max);
   
    
       return 0;
