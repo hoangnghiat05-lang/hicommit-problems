@@ -3,7 +3,7 @@
   int main()
   {
     int n;
-    printf("nhap mot so nguyen:");
+    printf("nhap mot so nguyen n\n");
     scanf("%d",&n);
     if  (n%2==0){
       printf("%d la so chan.\n",n);
