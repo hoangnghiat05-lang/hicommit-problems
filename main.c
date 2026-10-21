@@ -19,6 +19,6 @@ int main() {
   }
   printf("\n so lon nhat trong ba so la:%d\n",max);
 
-  if ( )
+ 
   return 0;
 }
