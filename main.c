@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
   int main()
@@ -7,10 +6,10 @@
     printf("nhap mot so nguyen n\n");
     scanf("%d",&n);
     if  (n%2==0){
-      printf("%d so chan\n",n);
+      printf("%d CHAN\n",n);
     }
     else{
-      printf("%d so le\n",n);
+      printf("%d LE\n",n);
     }
   
 
