@@ -16,8 +16,8 @@ int main(){
   else if (dtb < 7.0 && drl < 70);{
   printf ("KHONG_DAT");
   }
-  else ;{
+  else {
   printf ("KHONG_DAT");
-  }
+  };
   return 0;
 }
