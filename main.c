@@ -28,9 +28,14 @@ int main(){
     printf("HOC_BONG_XUAT_SAC");
   }else if (xlht==2&&xlhk==2||xlhk==1||xlht==1&&xlhk==2){
     printf("HOC_BONG_GIOI");
-  }else if (xlht==3&&xlhk==3||xlhk==2||xlhk==1||xlht==2&&xlhk==3||xlht==1&&xlhk3){
+  }else if (xlht==3&&xlhk==3||xlhk==2||xlhk==1){
     printf("HOC_BONG_KHA");
-  }else{
+  }else if (xlht==2&&xlhk==3){
+    printf("HOC_BONG_KHA");
+  }else if(xlht==1&&xlhk==3){
+    printf("HOC_BONG_KHA");
+  }
+  else{
     printf("KHONG_DAT");
   }
   return 0;
