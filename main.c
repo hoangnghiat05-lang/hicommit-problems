@@ -3,7 +3,6 @@
 
 int main(){
   int a;
-  printf("nhap so nguyen %d",a);
   scanf("%d",&a);
   
   switch(a){
