@@ -3,7 +3,7 @@ int main(){
   float dtb;
   int drl;
   int xlht;
-  imt xlhk;
+  int xlhk;
   scanf("%d",&dtb);
   scanf("%d",&drl);
   if (dtb>=9.0){
@@ -29,7 +29,7 @@ int main(){
   }else if (xlht==2&&xlhk==2||xlhk==1||xlht==1&&xlhk==2){
     printf("HOC_BONG_GIOI");
   }else if (xlht==3&&xlhk==3||xlhk==2||xlhk==1||xlht==2&&xlhk==3||xlht==1&&xlhk3){
-    print("HOC_BONG_KHA");
+    printf("HOC_BONG_KHA");
   }else{
     printf("KHONG_DAT");
   }
