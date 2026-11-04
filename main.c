@@ -1,19 +1,37 @@
 #include <stdio.h>
 int main(){
-  int dtb,drl; 
+  float dtb;
+  int drl;
+  int xlht;
+  imt xlhk;
   scanf("%d",&dtb);
   scanf("%d",&drl);
-  if (dtb>=9.0 && drl>=90){
-  printf("HOC_BONG_XUAT_SAC");
+  if (dtb>=9.0){
+    xlht=1;
+  }else if(dtb>=8.0){
+    xlht=2;
+  }else if(dtb>=7.0){
+    xlht=3;
+  }else {
+    xlht=4;
   }
-  else if (8.0 <= dtb < 9.0 && 80 <= drl < 90||drl>=90||dtb>=9.0 && 80 <= drl < 90){
-  printf("HOC_BONG_GIOI");
+  if (drl>=90){
+    xlhk=1;
+  }else if(drl>=80){
+    xlhk=2;
+  }else if(drl>=70){
+    xlht=3;
+  }else {
+    xlhk=4;
   }
-  else if (7.0 <= dtb < 8.0 && 70 <= drl < 80||80 <= drl < 90||drl >= 90||8.0 <= dtb < 9.0 && 70 <= drl < 80||dtb >= 9.0||70 <= drl < 80 ){
-  printf("HOC_BONG_KHA");
-  }
-  else {
-  printf ("KHONG_DAT");
+  if (xlht==1&&xlhk==1){
+    printf("HOC_BONG_XUAT_SAC");
+  }else if (xlht==2&&xlhk==2||xlhk==1||xlht==1&&xlhk==2){
+    printf("HOC_BONG_GIOI");
+  }else if (xlht==3&&xlhk==3||xlhk==2||xlhk==1||xlht==2&&xlhk==3||xlht==1&&xlhk3){
+    print("HOC_BONG_KHA");
+  }else{
+    printf("KHONG_DAT");
   }
   return 0;
 }
