@@ -4,7 +4,7 @@ int main(){
   int drl;
   int xlht;
   int xlhk;
-  scanf("%d",&dtb);
+  scanf("%f",&dtb);
   scanf("%d",&drl);
   if (dtb>=9.0){
     xlht=1;
