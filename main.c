@@ -4,16 +4,16 @@ int main(){
   int drl;
   scanf("%d",&dtb);
   scanf("%d",&drl);
-  if (dtb>=9.0 && drl>=90);{
+  if (dtb>=9.0 && drl>=90){
   printf("HOC_BONG_XUAT_SAC");
   }
-  else if (8.0 <= dtb < 9.0 && 80 <= drl < 90);{
+  else if (8.0 <= dtb < 9.0 && 80 <= drl < 90){
   printf("HOC_BONG_GIOI");
   }
-  else if (7.0 <= dtb < 8.0 && 70 <= drl < 80);{
+  else if (7.0 <= dtb < 8.0 && 70 <= drl < 80){
   printf("HOC_BONG_KHA");
   }
-  else if (dtb < 7.0 && drl < 70);{
+  else if (dtb < 7.0 && drl < 70){
   printf ("KHONG_DAT");
   }
   else {
