@@ -36,7 +36,7 @@ int main(){
     printf("HOC_BONG_KHA");
   }else if (xlht==2&&xlhk==3){
     printf("HOC_BONG_KHA");
-  }else if(xlht==1&&xlhk==3){
+  }else if (xlht==1&&xlhk==3){
     printf("HOC_BONG_KHA");
   }else if (xlht==3&&xlhk==2){
     printf("HOC_BONG_KHA");
