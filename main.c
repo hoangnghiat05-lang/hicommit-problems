@@ -5,7 +5,7 @@ int main(){
   scanf("%d",&dtb);
   scanf("%d",&drl);
   if (dtb>=9.0,drl>=90);{
-  print("HOC_BONG_XUAT_SAC");
+  printf("HOC_BONG_XUAT_SAC");
   }
   if (8.0 <= dtb < 9.0,80 <= drl < 90);{
   printf("HOC_BONG_GIOI");
@@ -16,8 +16,8 @@ int main(){
   if (dtb < 7.0,drl < 70);{
   printf ("KHONG_DAT");
   }
-  else  ;{
-  print ("KHONG_DAT");
+  else if  ;{
+  printf ("KHONG_DAT");
   }
   return 0;
 }
